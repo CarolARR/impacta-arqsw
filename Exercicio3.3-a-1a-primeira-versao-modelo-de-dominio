@@ -1,0 +1,103 @@
+<diagram program="umletino" version="14.2">
+<zoom_level>10</zoom_level>
+<help_text>agram Categoria</help_text>
+<element>
+<id>UMLClass</id>
+<coordinates>
+<x>0</x>
+<y>140</y>
+<w>210</w>
+<h>100</h>
+</coordinates>
+<panel_attributes>Ideia -- descricaoIdeia: String</panel_attributes>
+<additional_attributes/>
+</element>
+<element>
+<id>UMLClass</id>
+<coordinates>
+<x>420</x>
+<y>140</y>
+<w>210</w>
+<h>70</h>
+</coordinates>
+<panel_attributes>Categoria -- nome: String</panel_attributes>
+<additional_attributes/>
+</element>
+<element>
+<id>UMLClass</id>
+<coordinates>
+<x>360</x>
+<y>470</y>
+<w>210</w>
+<h>70</h>
+</coordinates>
+<panel_attributes>Organizador --</panel_attributes>
+<additional_attributes/>
+</element>
+<element>
+<id>Relation</id>
+<coordinates>
+<x>200</x>
+<y>150</y>
+<w>240</w>
+<h>50</h>
+</coordinates>
+<panel_attributes>lt=-> m1=0..* m2=1..* categorias</panel_attributes>
+<additional_attributes>10;20;220;20</additional_attributes>
+</element>
+<element>
+<id>Relation</id>
+<coordinates>
+<x>30</x>
+<y>230</y>
+<w>90</w>
+<h>230</h>
+</coordinates>
+<panel_attributes>lt=-> m1=0..* m2=1 participante</panel_attributes>
+<additional_attributes>10;10;10;210</additional_attributes>
+</element>
+<element>
+<id>UMLClass</id>
+<coordinates>
+<x>30</x>
+<y>440</y>
+<w>210</w>
+<h>70</h>
+</coordinates>
+<panel_attributes>Participante -- identificador</panel_attributes>
+<additional_attributes/>
+</element>
+<element>
+<id>Relation</id>
+<coordinates>
+<x>200</x>
+<y>200</y>
+<w>230</w>
+<h>140</h>
+</coordinates>
+<panel_attributes>lt=-> ideia</panel_attributes>
+<additional_attributes>210;120;10;10</additional_attributes>
+</element>
+<element>
+<id>UMLClass</id>
+<coordinates>
+<x>360</x>
+<y>320</y>
+<w>210</w>
+<h>70</h>
+</coordinates>
+<panel_attributes>Aviso -- dataHora</panel_attributes>
+<additional_attributes/>
+</element>
+<element>
+<id>Relation</id>
+<coordinates>
+<x>450</x>
+<y>380</y>
+<w>90</w>
+<h>110</h>
+</coordinates>
+<panel_attributes>lt=-> destinatario</panel_attributes>
+<additional_attributes>10;10;10;90</additional_attributes>
+</element>
+</diagram>

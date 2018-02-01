@@ -1,0 +1,17 @@
+<diagram program="umletino" version="14.2">
+<zoom_level>10</zoom_level>
+<help_text>agram Categoria</help_text>
+<element>
+<id>UMLClass</id>
+<coordinates>
+<x>60</x>
+<y>70</y>
+<w>410</w>
+<h>110</h>
+</coordinates>
+<panel_attributes>
+<Interface> /InovacaoSvc/ -- consultarCategorias(): Categoria[] enviarIdeia(identificador,descricao,categoriasSelecionadas):
+</panel_attributes>
+<additional_attributes/>
+</element>
+</diagram>
